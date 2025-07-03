@@ -37,19 +37,3 @@ Aplicación web desarrollada con Next.js que permite a usuarios enviar formulari
 
 ```bash
 npm install
-Ejecuta la migración de Prisma para crear la base de datos:
-
-bash
-npx prisma migrate dev
-Inicia el servidor de desarrollo:
-
-bash
-Copiar
-Editar
-npm run dev
-Abre tu navegador y visita:
-
-arduino
-Copiar
-Editar
-http://localhost:3000

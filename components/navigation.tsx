@@ -11,7 +11,6 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "For Clients", href: "/for-clients" },
   { name: "For Companies", href: "/for-companies" },
-  { name: "Setup", href: "/setup" },
 ]
 
 export function Navigation() {
@@ -37,7 +36,6 @@ export function Navigation() {
                       : "text-muted-foreground hover:text-foreground hover:bg-muted",
                   )}
                 >
-                  {item.name === "Setup" && <Settings className="h-4 w-4" />}
                   <span>{item.name}</span>
                 </Link>
               ))}
